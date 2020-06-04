@@ -33,7 +33,7 @@ if(!isset($p)){
 		TOMETES CHECHO
 	</div>
 
-<header>
+<header-1>
 	<nav class="menu">
 
 	  <ul>
@@ -70,7 +70,7 @@ if(!isset($p)){
 		?>
 	</nav>
 	    </ul>
-</header>
+</header-1>
 
 	<div class="cuerpo">
 		<?php
@@ -147,7 +147,7 @@ while($r = mysqli_fetch_array($q)){
 <br><br>
 <form method="post" action="?p=carrito">
 	<input type="hidden" name="monto_total" value="<?=$monto_total?>"/>
-	<button class="btn btn-primary" type="submit" name="finalizar"><i class="fa fa-check"></i> Finalizar Compra</button>
+	<button class="btn btn-primary" type="submit" name="finalizar"><i class="fa fa-check"></i> Validar Carrito </button>
 </form>
 
 	</div>

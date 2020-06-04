@@ -23,27 +23,27 @@ a{
 	text-transform: uppercase;
 }
 
-header nav {
+header-1 nav {
 	background:#3498db;
 	margin-bottom:-10px;
 }
  
-header nav ul {
+header-1 nav ul {
 	list-style: none;
 	overflow: hidden;
 }
  
-header nav ul li {
+header-1 nav ul li {
 	float: left;
 }
  
-header nav ul li a {
+header-1 nav ul li a {
 	display: block;
 	padding:20px;
 	color:#fff;
 	text-decoration: none;
 }
-header nav ul li a:hover {
+header-1 nav ul li a:hover {
 	background:#2980b9;
 	color:#fff;
 }

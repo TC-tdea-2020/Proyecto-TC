@@ -137,7 +137,7 @@ while($r = mysqli_fetch_array($q)){
 <br><br>
 <form method="post" action="">
 	<input type="hidden" name="monto_total" value="<?=$monto_total?>"/>
-	<button class="btn btn-primary" type="submit" name="finalizar"><i class="fa fa-check"></i> Finalizar Compra</button>
+	<button class="btn btn-primary" type="submit" name="finalizar"><i class="fa fa-check"></i> Validar Carrito</button>
 </form>
 
 <script type="text/javascript">
